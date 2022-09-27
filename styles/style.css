@@ -1,0 +1,170 @@
+body {
+    font-family: 'Inter';
+    background-color:#FFFFFF;
+}
+
+.chirp-title {
+    color: #3180F5;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.emoji {
+    font-size: 30px;
+}
+
+.btn {
+    background-color: #1DA1F2;
+    border: none;
+}
+
+.navbar-nav > li {
+    padding-left: 30px;
+    /* padding-right: 20px; */
+}
+
+.btn-twitter-link {
+    padding-right: 0px;
+}
+
+#header {
+    background-color: #FBF8F3;
+    padding: 3% 0;
+}
+
+.description-col {
+    padding-top: 3%;
+}
+
+.img2 {
+    position: absolute;
+    left: 40px;
+}
+
+.img3 {
+    position: absolute;
+    left: 60px;
+}
+
+.img4 {
+    position: absolute;
+    left: 80px;
+}
+
+.img5 {
+    position: absolute;
+    left: 100px;
+}
+
+.img6 {
+    position: absolute;
+    left: 120px;
+}
+
+.img7 {
+    position: absolute;
+    left: 140px;
+}
+
+.img8 {
+    position: absolute;
+    left: 160px;
+}
+
+.img9 {
+    position: absolute;
+    left: 180px;
+}
+
+#content {
+    background-color: #FFFFFF;
+    padding: 3% 0;
+}
+
+
+#testimonial {
+    background-color: #D7F5F5;
+    padding: 3% 0;
+}
+
+.testimonial-image {
+    width: 80px;
+    height: auto;
+}
+
+
+#pricing {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 3% 35%;
+}
+
+.card-description {
+    border-color: orange;
+    border-radius: 15px;
+}
+
+
+#footer {
+    background-color: #D7F5F5;
+    padding: 3% 0;
+    /* margin: 2%; */
+}
+
+.footer-links {
+    text-align: right;
+}
+
+
+@media screen and (max-width: 800px) { 
+
+    .navbar-nav > li {
+        padding: 0;
+    }
+    
+
+    #header {
+        padding: 8% 0;
+    }
+
+    .row-links {
+        text-align: center;
+    }
+
+    .btn-twitter {
+        width: 450px;
+    }
+
+    #content {
+        padding: 8% 0;
+    }
+
+    #testimonial {
+        padding: 8% 0;
+    }
+
+    #pricing { 
+        padding: 3% 5%;
+    }
+
+    .footer-links {
+        text-align: left;
+    }
+
+}
